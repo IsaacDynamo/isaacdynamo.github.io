@@ -3,7 +3,7 @@ https://isaacdynamo.github.io
 
 # Notes
 ## Local preview
-`bundle exec jekyll serve --host 0.0.0.0`
+`bundle exec jekyll serve --host 0.0.0.0 --unpublished`
 
 ## Template location
 `bundle info --path minima`
