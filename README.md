@@ -12,3 +12,9 @@ https://isaacdynamo.github.io
 Format: `YYYY-MM-DD HH:MM:SS +/-TTTT`
 
 `date +'%F %T %z'`
+
+## Build on Windows with Docker
+Run `docker run --rm --volume="%CD%:/srv/jekyll" -it jekyll/builder:latest /bin/bash"` in `cmd`.
+- `jekyll build` To build site
+- `bundle update` To update lockfile when needed
+
